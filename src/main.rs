@@ -1,4 +1,5 @@
 use hyper::{Client, Uri};
+use std::io::stdin;
 
 fn main() {
     loop{
