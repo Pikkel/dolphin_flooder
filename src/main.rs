@@ -1,11 +1,14 @@
 use hyper::{Client, Uri};
 
-
 fn main() {
     loop{
     rq();
 }
 }
+
+/*
+    TODO: make it take input from the command line
+*/
 
 #[tokio::main]
 async fn rq() {
